@@ -1,0 +1,161 @@
+.app_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.app_header > form {
+    width: 40%;
+}
+
+.task_input {
+    font-size: 20px;
+    font-weight: 500;
+    background: #f9f9f9;
+    color: #000;
+    border: 1px solid #dfe3e6;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-family: "Space Mono", serif;
+}
+
+.task_input::placeholder {
+    color: #686868;
+}
+
+.context_menu {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .context_menu:hover {
+    background-color: #f0f0f0;
+  }
+  
+.task_form_bottom_line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task_status {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #999;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    padding: 0 5px;
+    font-family: "Space Mono", serif;
+}
+
+.task_submit {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #6457f9;
+    color: #fff;
+    border-radius: 5px;
+    height: 40px;
+    padding: 3px 13px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "Space Mono", serif;
+    font-weight: 700;
+}
+/* Add to TaskForm.css */
+.task_input_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .task_input {
+    width: 100%;
+    padding-right: 40px; /* Make room for calendar icon */
+  }
+  .calendar_button {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; /* Increase the size of the icon */
+    height: auto; /* Adjust height to auto */
+}
+
+.calendar_button:hover {
+    color: #666;
+}
+
+  .date_picker_container {
+    margin-bottom: 15px;
+  }
+  
+  .date_picker {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    background: transparent;
+    color: #fff;
+  }
+  
+  .custom_tag_input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 8px;
+  }
+  
+  .tag_input {
+    padding: 8px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    background: transparent;
+    color: #fff;
+    width: 150px;
+  }
+  
+  .add_tag_button {
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
+  
+  .add_tag_button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .tags_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .tag_container {
+    display: flex;
+    flex-direction: column;
+  }

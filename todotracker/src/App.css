@@ -1,0 +1,22 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  font-family: "Space Mono", serif;
+}
+
+.app {
+  display: grid;
+  grid-template-rows: 280px auto;
+}
+
+.app_main {
+  display: flex;
+  justify-content: space-evenly;
+  padding:20px 8%;
+}
+
+.task_column {
+  width: 33.33%;
+  margin: 20px;
+}

@@ -1,0 +1,18 @@
+.task_column {
+    transition: background-color 0.2s ease;
+  }
+  
+  .task_column.drag-over {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .task_column_icon {
+    width: 30px;
+    margin-right: 5px;
+  }
+  
+  .task_column_heading {
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
