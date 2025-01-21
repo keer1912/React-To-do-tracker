@@ -39,4 +39,3 @@ This app is built with the following technologies:
 ## Deployment
 
 The app is deployed on **Netlify**, providing seamless deployment and hosting with a fast, reliable experience.
-```
